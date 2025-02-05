@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeKings Biltong - Order Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ThreeKings Biltong</h1>
+        <p>Premium, Delicious, and Authentic Biltong</p>
+    </header>
+
+    <section class="order-form">
+        <h2>Order Form</h2>
+        <form action="https://script.google.com/macros/s/AKfycbwYhD3MIWQbQT9c4Lj8a_yh8VY4lSXexrrVEObqZ8dsB_P8dktgAZapMoxSfa3abqet/exec" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" name="quantity" required>
+                <option value="250g">250g</option>
+                <option value="500g">500g</option>
+                <option value="1kg">1kg</option>
+            </select>
+
+            <label for="flavour">Flavour:</label>
+            <select id="flavour" name="flavour" required>
+                <option value="original">Original</option>
+                <option value="chili">Chili</option>
+                <option value="garlic">Garlic</option>
+                <option value="peri-peri">Peri-Peri</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any special requests?"></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+</body>
+</html>
